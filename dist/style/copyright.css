@@ -1,0 +1,19 @@
+.copyright {
+    background-color: #2C3154;
+    padding: 20px 0;
+}
+
+.copyright__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #808080;
+}
+
+.copyright__text span {
+    color: #FFFFFF;
+}

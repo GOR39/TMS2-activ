@@ -1,0 +1,38 @@
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 116px 0;
+}
+
+.features__item {
+    width: 33.33333%;
+    padding: 0 30px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.features__icon {
+    margin-bottom: 29px;
+    width: 100px;
+    height: auto;
+}
+
+.features__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #2D3033;
+}
+
+.features__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #6C7279;
+}

@@ -1,0 +1,62 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 747px;
+    padding-top: 110px;
+    background: url(../imeges/bg.jpg) center no-repeat;
+}
+
+.intro__iner {
+    width: 100%;
+    max-width: 1170;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__title {
+    margin: 0 0 30px;
+    line-height: 75px;
+    font-weight: 900;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.intro_subtitle{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 83px;
+    color: #FFFFFF;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: inherit;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px 95px;
+    border: 0;
+    cursor: pointer;
+}
+
+.button--red {
+    background-color: #FF4343;
+}
+
+.button--red:hover {
+    background-color: #f50808;
+}
+
+.button--long {
+    min-width: 280px; /* пересмотреть */
+}
